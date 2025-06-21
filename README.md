@@ -50,3 +50,16 @@ An advanced Building Management System web application with Firebase Authenticat
 git clone https://github.com/wahednur/wsbms.git
 
 ```
+
+## 📞 Contact
+
+📫 **Feel free to reach out if you liked my work or have any collaboration ideas!**
+
+- 📧 **Email:** [your-email@example.com](mailto:wahednur@gmail.com)
+- 💼 **LinkedIn:** [Abdul Wahed Nur](https://www.linkedin.com/in/wahednur)
+- 🌐 **Portfolio / Website:** [Wahed Nur](https://wahednur.vercel.app/)
+- 🐦 **Twitter (X):** [@yourhandle](https://twitter.com/wahednur)
+
+---
+
+**💬 You can also reach out through GitHub Issues or Discussions if you prefer.**
