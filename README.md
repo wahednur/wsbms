@@ -55,7 +55,7 @@ git clone https://github.com/wahednur/wsbms.git
 
 📫 **Feel free to reach out if you liked my work or have any collaboration ideas!**
 
-- 📧 **Email:** [your-email@example.com](mailto:wahednur@gmail.com)
+- 📧 **Email:** [wahednur@gmail.com](mailto:wahednur@gmail.com)
 - 💼 **LinkedIn:** [Abdul Wahed Nur](https://www.linkedin.com/in/wahednur)
 - 🌐 **Portfolio / Website:** [Wahed Nur](https://wahednur.vercel.app/)
 - 🐦 **Twitter (X):** [@yourhandle](https://twitter.com/wahednur)
