@@ -1,1 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+
+@theme {
+  /* Global color */
+  --color-ws-pr: var(--ws-pr);
+  --color-ws-se: var(--ws-se);
+  --color-ws-success: var(--ws-success);
+  --color-ws-err: var(--ws-err);
+  --color-ws-war: var(--ws-war);
+
+  /* Light Mode color */
+  --color-ws-bg-li: var(--ws-bg-li);
+  --color-ws-card-li: var(--ws-card-li);
+  --color-ws-pr-text-li: var(--ws-pr-text-li);
+  --color-ws-se-text-li: var(--ws-se-text-li);
+  --color-ws-bdr-text-li: var(--ws-bdr-text-li);
+  --color-ws-btn-pr-li: var(--ws-btn-pr-li);
+
+  /* Dark mode color */
+  --color-ws-bg-drk: var(--ws-bg-drk);
+  --color-ws-card-drk: var(--ws-card-drk);
+  --color-ws-pr-text-drk: var(--ws-pr-text-drk);
+  --color-ws-se-text-drk: var(--ws-se-text-drk);
+  --color-ws-bdr-text-drk: var(--ws-bdr-text-drk);
+  --color-ws-btn-pr-drk: var(--ws-btn-pr-drk);
+
+  /* Font family */
+  --font-inter: (--font-inter);
+  --font-robot: (--font-robot);
+  --font-poppins: (--font-poppins);
+  /* Aspect ratio */
+  --aspect-slider: 1920/800;
+}
+@custom-variant dark (&:where(.dark, .dark *));
+:root {
+  /* Global color */
+  --ws-pr: #2563eb;
+  --ws-se: #475569;
+  --ws-success: #10b981;
+  --ws-err: #ef4444;
+  --ws-war: #f59e0b;
+
+  /* Light Mode  color */
+  --ws-bg-li: #f9fafb;
+  --ws-card-li: #ffffff;
+  --ws-pr-text-li: #1f2937;
+  --ws-se-text-li: #6b7280;
+  --ws-bdr-text-li: #e5e7eb;
+  --ws-btn-pr-li: #2563eb;
+
+  /* Dark mode color*/
+  --ws-bg-drk: #070a10;
+  --ws-card-drk: #1e293b;
+  --ws-pr-text-drk: #f1f5f9;
+  --ws-se-text-drk: #94a3b8;
+  --ws-bdr-text-drk: #334155;
+  --ws-btn-pr-drk: #ffffff;
+
+  /* Font family */
+  --font-inter: "Inter", sans-serif;
+  --font-robot: "Roboto", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+  @apply font-inter bg-ws-bg-li dark:bg-ws-bg-drk duration-300;
+}
+
+.container {
+  @apply px-3 xl:px-0 mx-auto;
+}
+
+/* Global CSSS start  */
+/* Global CSSS end  */
+
+/* Nav css start  */
+.desk-nav ul li a {
+  @apply px-5 py-3.5 hover:text-ws-pr font-robot   block duration-300;
+}
+.desk-nav ul li a.active {
+  @apply text-ws-pr;
+}
+/* Nav css end  */

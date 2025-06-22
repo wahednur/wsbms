@@ -1,7 +1,9 @@
+import MainNav from "../../navigation/MainNav";
+
 const Header = () => {
   return (
     <div>
-      <h1>Header </h1>
+      <MainNav />
     </div>
   );
 };
