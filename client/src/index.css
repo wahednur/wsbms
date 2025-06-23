@@ -71,12 +71,31 @@ body {
   @apply px-3 xl:px-0 mx-auto;
 }
 
-/* Global CSSS start  */
-/* Global CSSS end  */
+/* Global CSS start  */
+.mt {
+  @apply mt-10 md:mt-12 lg:mt-16 xl:mt-20;
+}
+.sec-title {
+  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold font-poppins leading-tight;
+}
+
+/* Button css start  */
+.btn {
+  @apply px-5 py-3 flex justify-center items-center rounded-md duration-300 font-semibold;
+}
+.btn-filled {
+  @apply bg-ws-btn-pr-li dark:bg-ws-btn-pr-drk text-white dark:text-ws-pr hover:bg-ws-success dark:hover:text-white;
+}
+/* Button css end  */
+
+.frm-ctr {
+  @apply px-3 py-2 rounded-md w-full text-gray-700 ring-0 outline-0;
+}
+/* Global CSS end  */
 
 /* Nav css start  */
 .desk-nav ul li a {
-  @apply px-5 py-3.5 hover:text-ws-pr font-robot   block duration-300;
+  @apply px-5 py-3.5 hover:text-ws-pr font-robot block duration-300;
 }
 .desk-nav ul li a.active {
   @apply text-ws-pr;

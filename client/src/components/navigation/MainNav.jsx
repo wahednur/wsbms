@@ -1,6 +1,6 @@
-import { FaBars } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
 import ThemeToggle from "./../theme/ThemeToggle";
+import MobileNav from "./MobileNav";
 const MainNav = () => {
   const navList = (
     <>
@@ -27,20 +27,7 @@ const MainNav = () => {
           </div>
         </div>
         {/* Desktop navbar end  */}
-        <div className="mobile-nav lg:hidden">
-          <div className="container">
-            <div className="flex justify-between items-center">
-              <Link to={"/"}>
-                <img src="/wbms.svg" alt="" className="h-10" />
-              </Link>
-              <div className="flex items-center gap-3">
-                <button>
-                  <FaBars />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <MobileNav navList={navList} />
       </div>
     </div>
   );

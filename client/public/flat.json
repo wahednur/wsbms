@@ -1,0 +1,74 @@
+[
+  {
+    "area": "Dhanmondi",
+    "image": "/img/apart/apart-1.jpg",
+    "totalFlat": 12,
+    "rentStart": 25000
+  },
+  {
+    "area": "Mohammadpur",
+    "image": "/img/apart/apart-2.jpg",
+    "totalFlat": 8,
+    "rentStart": 18000
+  },
+  {
+    "area": "Banani",
+    "image": "/img/apart/apart-3.jpg",
+    "totalFlat": 15,
+    "rentStart": 30000
+  },
+  {
+    "area": "Uttara",
+    "image": "/img/apart/apart-4.jpg",
+    "totalFlat": 20,
+    "rentStart": 22000
+  },
+  {
+    "area": "Dhanmondi",
+    "image": "/img/apart/apart-5.jpg",
+    "totalFlat": 10,
+    "rentStart": 27000
+  },
+  {
+    "area": "Mohammadpur",
+    "image": "/img/apart/apart-6.jpg",
+    "totalFlat": 6,
+    "rentStart": 16000
+  },
+  {
+    "area": "Banani",
+    "image": "/img/apart/apart-7.jpg",
+    "totalFlat": 18,
+    "rentStart": 32000
+  },
+  {
+    "area": "Uttara",
+    "image": "/img/apart/apart-8.jpg",
+    "totalFlat": 14,
+    "rentStart": 21000
+  },
+  {
+    "area": "Dhanmondi",
+    "image": "/img/apart/apart-9.jpg",
+    "totalFlat": 9,
+    "rentStart": 26000
+  },
+  {
+    "area": "Mohammadpur",
+    "image": "/img/apart/apart-10.jpg",
+    "totalFlat": 7,
+    "rentStart": 17000
+  },
+  {
+    "area": "Banani",
+    "image": "/img/apart/apart-11.jpg",
+    "totalFlat": 16,
+    "rentStart": 31000
+  },
+  {
+    "area": "Uttara",
+    "image": "/img/apart/apart-12.jpg",
+    "totalFlat": 11,
+    "rentStart": 20000
+  }
+]

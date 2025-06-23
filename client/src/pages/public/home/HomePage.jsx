@@ -1,3 +1,5 @@
+import AreaAbdicableFlat from "../../../components/home/AreaAbdicableFlat";
+import HomePageFeature from "../../../components/home/HomePageFeature";
 import HomeSlider from "../../../components/sliders/HomeSlider";
 
 const HomePage = () => {
@@ -6,7 +8,12 @@ const HomePage = () => {
       <div>
         <HomeSlider />
       </div>
-      <h1>Home Page</h1>
+      <div className="container mt">
+        <HomePageFeature />
+      </div>
+      <div className="container">
+        <AreaAbdicableFlat />
+      </div>
     </div>
   );
 };
